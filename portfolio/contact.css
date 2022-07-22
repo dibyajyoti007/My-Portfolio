@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    background: #020412;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+h2{
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff724;
+    margin-bottom: 520px;
+    padding:0 30px 0 40px;
+}
+
+form{
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    
+
+}
+
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff724;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+
+
+form button{
+    
+    padding: 10px 0px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: 300;
+    
+}
+
+button:hover{
+    color: #020412;
+    background: #fff;
+    border: none;
+    font-weight: 400;
+}
+
+
+/* #social-right
+{
+    position:absolute;
+    width: 500px;
+    height: 100%;
+    padding-top: 0px;
+    top: 0;
+    left: 77%;
+    right: 0;
+    
+}
+
+#social-left
+{
+    position:absolute;
+    width: 500px;
+    height: 100%;
+    padding-top: 0px;
+    bottom: 0;
+    right: 72%;
+    
+
+} */
+
+.social-icons 
+{
+    position: absolute;
+    left: 5%;
+    width: 4%;
+    top: 40%;
+    height: 40px;
+    font-size: 35px;
+    letter-spacing: 10px;
+      
+    
+    
+} 
+
+

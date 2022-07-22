@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 90px;
+
+}
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    text-decoration: 3px;
+    color: aqua;
+    
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont h1{
+    font-size: 150px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.cont h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.cont h3{
+    color: #fff;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont h3:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    
+}
+
+.cont a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font: 24px;
+    border: 2px  solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.cont a:hover{
+    background: #fff;
+    color: black;
+    text-decoration: none;
+}
+
+.bg-vdo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .bg-vdo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .bg-vdo{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* popular places */
+
+#places{
+    margin: 40px 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+#places h1{
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    padding: 10%;
+    display: flex;
+    color: rgb(81, 79, 79);
+
+}
+
+.card{
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 6px gray;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-2%);
+}
+
+.card h3{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p{
+    font-size: 12;
+    margin-bottom: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(109, 109, 109);
+}
+
+.card-body a{
+    position: absolute;
+    bottom: 2%;
+    background: rgb(37, 193, 169);
+    color: rgb(254, 255, 255);
+    border-radius: 8px;
+
+}
+
+/* Hotels */
+
+#hotels{
+    background: linear-gradient(120deg,rgb(71, 71, 71),rgb(249, 246, 246)) ;
+    margin: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+   
+}
+
+
+#hotels .hotel-text h1{
+    font-size: 45px;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+    padding-right: 20px;
+    margin-left: -50PX;
+    color: #fff;
+}
+
+#hotels .hotel-text p{
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Resturats */
+
+#rest{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.rest-text h1{
+    color: rgb(109, 109, 109);
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 600;
+}
